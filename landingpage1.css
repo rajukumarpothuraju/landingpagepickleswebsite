@@ -1,0 +1,76 @@
+
+.anilkumar{
+    background-color: #f1c989;
+}
+.nav-custom .nav-link{
+    color: white;
+    margin-left: 25px;
+    font-weight:bold;
+    transition: border-bottom 0.3s ease-in; 
+    transition:transform o.1s ease-in;
+
+}
+.nav-custom .nav-link:hover {
+  background-color: white;
+  color: #f1c989;
+  border-radius: 5px;
+  padding: 5px 10px;
+  border-bottom: 2px solid black; /* ✅ This adds black underline */
+  background-color:transparent;
+  color: white;
+  transform: scalexy(1 1);
+}
+.carousael-item .img{
+    height:400px;
+}
+@media screen and (max-width: 768px) {
+  .carousel-item img {
+    height: 200px;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .carousel-item img {
+    height: 350px;
+  }
+}
+
+@media (max-width: 991px) {
+  .navbar-collapse {
+    background-color:  #f1c989;
+    padding: 10px;
+    z-index: 1000;
+  }
+
+  .nav-link {
+    color: black !important;
+    font-weight: bold;
+  }
+}
+#praying-hands{
+  color: green;
+  width:100px;
+  height:100px;
+}
+.rajukumar{
+  height: 100px;
+  width: 100px;
+  margin-top: 0%;
+  display:flex;
+  align-items: start;
+  justify-content: center;
+  
+}
+.rajesh{
+  height:300px;
+}
+.ourproducts{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.body{
+  margin:0%;
+  padding: 0%;
+}
+
